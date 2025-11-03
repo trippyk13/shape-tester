@@ -8,7 +8,12 @@ public class ShapeFactory {
             case "rectangle":
                 return new Rectangle(params[0], params[1]);
             case  "triangle":
-                return new Triangle(params[0], params[1], params[2]);
+                if (params.length == 2) {
+                    return new Triangle(params[0], params[1]);
+                } else {
+                    return new Triangle(params[0], params[1], params[2]);
+                }
+
             default:
                 return null;
         }
