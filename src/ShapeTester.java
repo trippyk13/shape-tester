@@ -7,6 +7,7 @@ public class ShapeTester {
 
         shapes.add(ShapeFactory.createShape("circle", 5));
         shapes.add(ShapeFactory.createShape("rectangle", 5, 2));
+        shapes.add(ShapeFactory.createShape("Square", 4));
         shapes.add(ShapeFactory.createShape("triangle", 5, 2));
         shapes.add(ShapeFactory.createShape("triangle", 5, 2, 50));
 
