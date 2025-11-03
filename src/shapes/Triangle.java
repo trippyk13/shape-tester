@@ -5,13 +5,13 @@ public class Triangle extends Shape {
     private double b;
     private double gamma;
 
-    public Triangle(double a, double b) {
+    Triangle(double a, double b) {
         this.a = a;
         this.b = b;
         this.gamma = 90;
     }
 
-    public Triangle(double a, double b, double gamma) {
+    Triangle(double a, double b, double gamma) {
         this.a = a;
         this.b = b;
         this.gamma = gamma;
